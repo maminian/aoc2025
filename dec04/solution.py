@@ -2,7 +2,7 @@
 import csv
 import numpy as np
 
-with open('input', 'r') as f:
+with open('input_mini', 'r') as f:
     csvr = csv.reader(f, delimiter=' ')
     lines = list(csvr)
     lines = [l[0] for l in lines]
